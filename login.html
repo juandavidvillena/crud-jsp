@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<HTML>
+<head>
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link rel="stylesheet" type="text/css" href="general.css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<!------ Include the above in your HEAD tag ---------->
+
+    <body>
+<section id="login">
+    <div class="container">
+    	<div class="row">
+    	    <div class="col-xs-12">
+        	    <div class="form-wrap">
+                <h1>Inicia Sesion con tu Nombre</h1>
+                    <form role="form" action="index.jsp" method="post" id="login-form" autocomplete="off">
+                        <div class="form-group">
+                            <label for="email" class="sr-only">Nombre</label>
+                            <input type="text" name="textoo" id="email" class="form-control" placeholder="Nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="key" class="sr-only">Contraseña</label>
+                            <input type="password" name="key" id="key" class="form-control" placeholder="Contraseña">
+                        </div>
+                        <input type="submit" id="btn-login" class="btn btn-custom btn-lg btn-block" value="Log in">
+                    </form>
+                    <a href="login.html" class="forget" data-toggle="modal" data-target=".forget-modal">¿Olvidastes tu contraseña?</a>
+                    <hr>
+        	    </div>
+    		</div> <!-- /.col-xs-12 -->
+    	</div> <!-- /.row -->
+    </div> <!-- /.container -->
+</section>
+        </body>
+    <script>
+        alert("La contraseña es ' Aprobare_Programacion '");
+    </script>
+</html>

@@ -1,0 +1,251 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20-mar-2018, 9:31:29
+    Author     : 6001016
+*/
+
+.limpio:before,.limpio:after,.contenedor:before,.contenedor:after{
+	display:table;
+	content: "";
+}
+.limpio:after{
+	clear: both;
+}
+
+.limpio:after,.contenedor:after{
+	clear: both;
+}
+.contenedor{
+	width:100%;
+	margin:0 auto;
+	padding: 0 15px;
+}
+.cabecera .logo{
+	float:left;
+	width:230px;
+	padding:10px 0;
+}
+a{
+	color: #505961;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+a:hover{
+	color: #2fb677;
+}
+.cabecera .menu{
+	float: right;
+}
+.cabecera .menu ul{
+	list-style:none;
+	position: relative;
+	margin:0;
+	padding:0;
+}
+.cabecera .menu ul li{
+	float: left;
+}
+.cabecera .menu ul li a{
+	padding:0 15px;
+	display:block;
+	line-height:84px;
+    color: #2fb677;
+}
+.cabecera .menu ul li a:hover,.cabecera .menu ul li a.active{
+	color: #fff;
+	box-shadow: 0 -84px 0 #2fb677 inset;
+}
+#titulo{
+	text-align: center;
+    font-size: 45px;
+    color: #000000;
+    font-weight: 300;
+    background-color: grey;
+}
+.texto{
+	background-color:rgba(128, 128, 128, 0.8); 
+	display: inline-block;
+    padding: 10px;
+}
+.foto{
+	float:left;
+	width:230px;
+	padding:10px 0;
+	margin-right: 20px;
+	border: 3px double rgba(128, 128, 128, 0.8);
+}
+iframe{
+	margin-top: 45px;
+	margin-left: 30%;
+	margin-bottom: 60px;
+}
+footer{
+	padding: 20px;
+	width: 100%;
+	background: #202020;
+}
+.contenedor-body{
+	display: flex;
+	justify-content: space-between;
+	color: #C7C7C7;
+}
+.colum1{
+	max-width: 400px;
+}
+.colum1 h1{
+	font-size: 40px;
+}
+.colum1 p{
+	font-size: 22px;
+	color: #C7C7C7;
+	margin-top: 20px;
+}
+.colum2{
+	max-width: 400px;
+    float: left;
+}
+.colum2 h1{
+	font-size: 40px;
+}
+.fila{
+	margin-top: 20px;
+	display: flex;
+}
+.fila img{
+	width: 36px;
+	height: 36px;
+}
+.fila label{
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.colum3{
+	max-width: 400px;
+}
+.colum3 h1{
+	font-size: 40px;
+}
+.fila2{
+	margin-top: 20px;
+	display: flex;
+}
+.fila2 img{
+	width: 36px;
+	height: 36px;
+}
+.fila2 label{
+	margin-left: 20px;
+	max-width: 140px;
+	margin-top: 10px;
+	margin-right: 25px;
+}
+img {
+  border: 0;
+  max-width: 100%;
+}
+body{
+    background-image: url("img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#textot{
+    color: #2fb677;
+    font-size: 15px;
+    background-color: rgba(234,135,35,0.64);
+}
+#login {
+    padding-top: 50px
+}
+#login .form-wrap {
+    width: 30%;
+    margin: 0 auto;
+}
+#login h1 {
+    color: #1fa67b;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+#login .form-group {
+    margin-bottom: 25px;
+}
+#login .checkbox {
+    margin-bottom: 20px;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+#login .checkbox.show:before {
+    content: '\e013';
+    color: #1fa67b;
+    font-size: 17px;
+    margin: 1px 0 0 3px;
+    position: absolute;
+    pointer-events: none;
+    font-family: 'Glyphicons Halflings';
+}
+#login .checkbox .character-checkbox {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+    display: inline-block;
+}
+#login .checkbox .label {
+    color: #6d6d6d;
+    font-size: 13px;
+    font-weight: normal;
+}
+#login .btn.btn-custom {
+    font-size: 14px;
+	margin-bottom: 20px;
+}
+#login .forget {
+    font-size: 13px;
+	text-align: center;
+	display: block;
+}
+
+/*    --------------------------------------------------
+	:: Inputs & Buttons
+	-------------------------------------------------- */
+.form-control {
+    color: #212121;
+}
+.btn-custom {
+    color: #fff;
+	background-color: #1fa67b;
+}
+.btn-custom:hover,
+.btn-custom:focus {
+    color: #fff;
+}
+
+/*    --------------------------------------------------
+    :: Footer
+	-------------------------------------------------- */
+#footer {
+    color: #6d6d6d;
+    font-size: 12px;
+    text-align: center;
+}
+#footer p {
+    margin-bottom: 0;
+}
+#footer a {
+    color: inherit;
+}
+#contacto{
+    background-color: grey;
+}
